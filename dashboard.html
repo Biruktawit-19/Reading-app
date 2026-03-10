@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard - DailyPage</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>DailyPage</h1>
+</header>
+<nav class="navbar">
+<a href="dashboard.html">Home</a>
+<a href="library.html">Library</a>
+<a href="#">Audio</a>
+<a href="#">Progress</a>
+<div class="progress-bar">
+<div id="progressFill"></div>
+</div>
+<a href="#">Profile</a>
+</nav>
+
+<section class="hero">
+
+<h2>Welcome Back!</h2>
+
+<div class="goal-box">
+<h3>Today's Goal</h3>
+<p>Read 5 Pages</p>
+</div>
+
+<div class="streak-box">
+<h3>Reading Streak</h3>
+<p>🔥 3 Days</p>
+</div>
+
+<h3>Categories</h3>
+
+<div class="categories">
+<button onclick="location.href='library.html'">Open Library</button>
+<div class="category">Spiritual</div>
+<div class="category">Science</div>
+<div class="category">Fiction</div>
+<div class="category">Philosophy</div>
+<div class="category">History</div>
+<div class="category">Self Development</div>
+
+</div>
+<div class="goal-box">
+<h3>Today's Reading Progress</h3>
+<p id="dashboardProgress"></p>
+</div>
+</section>
+<p id="streakDisplay"></p>
+</body>
+</html>
